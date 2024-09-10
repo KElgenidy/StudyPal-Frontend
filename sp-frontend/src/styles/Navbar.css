@@ -1,0 +1,45 @@
+.lp-navbar {
+    font-size: 15px;
+    font-weight: 600;
+    /* border: 1px  solid #e5e5e5;; */
+
+    height: 10vh;
+    width: 500px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lp-navbar-h1 {
+    font-size: 25px;
+    font-weight: bold;
+
+    /* border: 1px solid black; */
+}
+
+.lp-navbar-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid black; */
+    width: 350px;
+
+
+    padding: 0;
+    margin-left: 10px;
+}
+
+
+.links {
+    text-decoration: none;
+    color: #1cb3bb92;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #1cb3bb92;
+    text-decoration: underline;
+}
