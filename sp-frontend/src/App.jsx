@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import Header from "./Landing/Header";
+import Navbar from "./Landing/Navbar";
 import Home from "./Landing/Home";
 import About from "./Landing/About";
 import ViewCourses from "./Landing/ViewCourses";
@@ -8,7 +8,8 @@ import ViewCourses from "./Landing/ViewCourses";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <Navbar flag={true} />
       <Home />
       <About />
       <ViewCourses />
