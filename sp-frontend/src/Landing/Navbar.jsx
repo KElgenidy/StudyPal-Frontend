@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function Navbar({ flag }) {
   return (
@@ -10,7 +10,11 @@ export default function Navbar({ flag }) {
       {flag ? (
         <>
           <nav className="lp-navbar">
-            <h1 className="lp-navbar-h1">StudyPal</h1>
+            <h1 className="lp-navbar-h1">
+              <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
+                StudyPal
+              </Link>
+            </h1>
 
             <ul className="lp-navbar-ul">
               <li>
@@ -38,14 +42,21 @@ export default function Navbar({ flag }) {
 
           <div>
             <button className="lp-header-btn">
-              <Link to="./login" style={{ textDecoration: "none", color: "white" }}>
+              <Link
+                to="./login"
+                style={{ textDecoration: "none", color: "white" }}
+              >
                 Sign In
               </Link>
             </button>
           </div>
         </>
       ) : (
-        <h1 className="lp-navbar-h1">StudyPal</h1>
+        <h1 className="lp-navbar-h1">
+          <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
+            StudyPal
+          </Link>
+        </h1>
       )}
     </header>
   );
