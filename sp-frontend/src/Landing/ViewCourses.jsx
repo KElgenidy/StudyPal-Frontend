@@ -1,4 +1,4 @@
-import "../styles/ViewCourses.css";
+import "../LandingStyles/ViewCourses.css";
 import { useCallback, useState, useEffect } from 'react';
 
 function determineClasses(indexes, cardIndex) {

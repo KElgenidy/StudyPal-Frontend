@@ -1,4 +1,4 @@
-import "../styles/About.css";
+import "../LandingStyles/About.css";
 import femAva from "../assets/about-fem.jpg"
 import maleAva from "../assets/about-male.jpg"
 

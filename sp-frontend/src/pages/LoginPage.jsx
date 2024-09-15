@@ -1,5 +1,5 @@
 import Navbar from "../Landing/Navbar";
-import "../styles/LS.css";
+import "./LS.css";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { Icon } from "react-icons-kit";
@@ -43,7 +43,7 @@ export default function LoginPage() {
     if (username === "admin" && password === "admin") {
       navigate("/admin");
     } else if (username === "user" && password === "user") {
-      navigate("/user");
+      navigate("/home");
     } else {
       setInvalidError("Invalid username or password");
     }

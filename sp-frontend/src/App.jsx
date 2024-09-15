@@ -1,6 +1,6 @@
-import "./styles/App.css";
+import "./App.css";
 import Navbar from "./Landing/Navbar";
-import Home from "./Landing/Home";
+import Initial from "./Landing/Initial";
 import About from "./Landing/About";
 import ViewCourses from "./Landing/ViewCourses";
 // import HIW from "./components/HIW";
@@ -10,7 +10,7 @@ function App() {
     <>
       {/* <Header /> */}
       <Navbar flag={true} />
-      <Home />
+      <Initial />
       <About />
       <ViewCourses />
       {/* <HIW /> */}

@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import "../LandingStyles/Navbar.css";
 
 import PropTypes from "prop-types";
 

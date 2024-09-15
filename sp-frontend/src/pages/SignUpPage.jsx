@@ -1,5 +1,5 @@
 import Navbar from "../Landing/Navbar";
-import "../styles/LS.css";
+import "./LS.css";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Icon } from "react-icons-kit";
